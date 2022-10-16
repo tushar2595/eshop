@@ -1,0 +1,45 @@
+.containerheader
+{
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   .containerlogo
+   {
+      justify-content: start;
+      margin-left: 5rem;  
+   }
+   .userProfileContainer
+   {
+      display: flex;
+      margin-right: 5rem;
+   }
+   .menucontent
+   {
+      margin: 2rem;
+      font-weight: 600;
+   }
+   .userContentIcons
+   {
+      margin: 0.5rem;
+      font-size: 20px;
+   }
+   .burgerIcon{
+      display: none;
+   }
+   .drawerContent{
+      display: flex;
+      flex-direction: column;
+   }
+   @media screen and (max-width: 768px) {
+      .burgerIcon{
+         display: block;
+      }
+      .menucontent{
+         display:none;
+      }
+      .userContentIcons{
+         display: none;
+      }
+   }
+}

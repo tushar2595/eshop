@@ -1,0 +1,117 @@
+.login___Container {
+  display: flex;
+  justify-content: center;
+  font-family: Clarkson, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  .loginform___container
+  {
+    flex-grow: 4;
+    .loginform___body
+    {
+        width: 90%;
+        margin: auto;
+    }
+  }
+  
+  .sperator___container
+  {
+    flex-grow: 0;
+  }
+  .socialbtn___container
+  {
+    flex-grow: 4;
+  }
+
+  .login___labels {
+    text-align: left;
+    box-sizing: border-box;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+    font-family: Clarkson, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    font-size: 9.75px;
+    letter-spacing: 0.75px;
+    line-height: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .logininput___container {
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .logininputafter___container{
+    border-bottom: 1px solid #333;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .loginbtn___container
+  {
+    width: 50%;
+    padding-top: 20px;
+    margin: auto;
+    .login___btn
+    {
+        border: 0px;
+        background: #f2f2f2;
+        width: 100%;
+        color: rgb(204, 204, 204);
+        min-height: 44px;
+    }
+  }
+  .or___container{
+    padding: 20px;
+    color: rgb(110, 110, 110);
+    box-sizing: border-box;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    font-family: Clarkson, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    font-size: 9.75px;
+    letter-spacing: 0.75px;
+    line-height: 16px;
+  }
+  .seperate___container
+  {
+    border: 1px solid;
+    margin: auto;
+
+  }
+}
+.loginheading___container{
+    margin: 2rem;
+    text-align: center;
+      
+      .login___heading {
+        font-weight: 600;
+        font-size: large;
+      }
+  }
+  @media (max-width: 800px) {
+    .login___Container{
+      flex-direction: column;
+      width: 100%;
+    }
+}
